@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_arrow_back_24" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Issue Out Gate Pass"
+            android:textColor="#272727"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/light_green_pill_background"
+        android:layout_marginTop="15dp"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="10dp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#52c882"
+            android:text="Status: "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#3fc074"
+            android:text="Fuel Pass Issued"/>
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="15dp"
+            android:src="@drawable/baseline_check_circle_24_green"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Confirm Delivery Details"
+        android:textColor="#3eb1f2"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/details_background"
+        android:orientation="vertical"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Truck Number"
+                android:textColor="#454545"
+                android:textSize="15sp"
+                android:layout_weight="0.45"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text=":   AP21EJ5893"
+                android:textColor="#4e4d4d"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_weight="0.55"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Container Number"
+                android:textColor="#454545"
+                android:textSize="15sp"
+                android:layout_weight="0.45"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text=":   9128739125"
+                android:textColor="#4e4d4d"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_weight="0.55"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Consignee Name"
+                android:textColor="#454545"
+                android:textSize="15sp"
+                android:layout_weight="0.45"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text=":   James Gouse"
+                android:textColor="#4e4d4d"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_weight="0.55"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Shipper Name"
+                android:textColor="#454545"
+                android:textSize="15sp"
+                android:layout_weight="0.45"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text=":   Nolan Curtis"
+                android:textColor="#4e4d4d"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_weight="0.55"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Cargo Agency"
+                android:textColor="#454545"
+                android:textSize="15sp"
+                android:layout_weight="0.45"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text=":   ABCCCCCCC"
+                android:textColor="#4e4d4d"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_weight="0.55"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Date"
+                android:textColor="#454545"
+                android:textSize="15sp"
+                android:layout_weight="0.45"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text=":   28-03-2023"
+                android:textColor="#4e4d4d"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_weight="0.55"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Validity"
+                android:textColor="#454545"
+                android:textSize="15sp"
+                android:layout_weight="0.45"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text=":   2 Days"
+                android:textColor="#4e4d4d"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_weight="0.55"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Order Location"
+                android:textColor="#454545"
+                android:textSize="15sp"
+                android:layout_weight="0.45"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text=":   Lorem ipsum dolor \n    sit amet ameno do"
+                android:textColor="#4e4d4d"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_weight="0.55"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Consignee Location"
+                android:textColor="#454545"
+                android:textSize="15sp"
+                android:layout_weight="0.45"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text=":   Lorem ipsum dolor \n    sit amet ameno do"
+                android:textColor="#4e4d4d"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_weight="0.55"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="12dp"
+            android:src="@drawable/page_indicator_pill_active" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="12dp"
+            android:layout_marginStart="15dp"
+            android:src="@drawable/page_indicator_pill_inactive" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Swipe right to see description"
+            android:textColor="#302e2e"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blue_pill_background"
+            android:paddingHorizontal="52dp"
+            android:text="Generate Out Gate Pass"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+</LinearLayout>
