@@ -24,7 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="FLOOR"
+            android:text="Assign Driver"
             android:textColor="#272727"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -44,7 +44,7 @@
             android:layout_height="wrap_content"
             android:textSize="18sp"
             android:textColor="@color/black"
-            android:text="Select a damage code "/>
+            android:text="Select a driver to assign"/>
     </LinearLayout>
 
     <ScrollView
@@ -67,7 +67,7 @@
                     android:layout_marginRight="15dp"
                     android:textColor="@color/black"
                     android:textSize="20sp"
-                    android:text="No damage"
+                    android:text="Marilyn Monroe"
                     android:layoutDirection="rtl"/>
                 <ImageView
                     android:layout_width="match_parent"
@@ -81,7 +81,7 @@
                     android:layout_marginRight="15dp"
                     android:textColor="@color/black"
                     android:textSize="20sp"
-                    android:text="D - Dent"
+                    android:text="Antonio Bandeiras"
                     android:layoutDirection="rtl"/>
                 <ImageView
                     android:layout_width="match_parent"
@@ -95,7 +95,7 @@
                     android:layout_marginRight="15dp"
                     android:textColor="@color/black"
                     android:textSize="20sp"
-                    android:text="H - Hole"
+                    android:text="Mark Wahlberg"
                     android:layoutDirection="rtl"/>
                 <ImageView
                     android:layout_width="match_parent"
@@ -109,7 +109,7 @@
                     android:layout_marginRight="15dp"
                     android:textColor="@color/black"
                     android:textSize="20sp"
-                    android:text="C - Cut"
+                    android:text="John Krasinski"
                     android:layoutDirection="rtl"/>
                 <ImageView
                     android:layout_width="match_parent"
@@ -123,7 +123,7 @@
                     android:layout_marginRight="15dp"
                     android:textColor="@color/black"
                     android:textSize="20sp"
-                    android:text="M - Missing"
+                    android:text="Michael Keaton"
                     android:layoutDirection="rtl"/>
                 <ImageView
                     android:layout_width="match_parent"
@@ -137,7 +137,7 @@
                     android:layout_marginRight="15dp"
                     android:textColor="@color/black"
                     android:textSize="20sp"
-                    android:text="Rl - Ripped"
+                    android:text="Natalie Portman"
                     android:layoutDirection="rtl"/>
                 <ImageView
                     android:layout_width="match_parent"
@@ -151,7 +151,7 @@
                     android:layout_marginRight="15dp"
                     android:textColor="@color/black"
                     android:textSize="20sp"
-                    android:text="BR - Broken"
+                    android:text="Robert Pattinson"
                     android:layoutDirection="rtl"/>
                 <ImageView
                     android:layout_width="match_parent"
@@ -165,7 +165,7 @@
                     android:layout_marginRight="15dp"
                     android:textColor="@color/black"
                     android:textSize="20sp"
-                    android:text="OD - Odour"
+                    android:text="Rowan Atkinson"
                     android:layoutDirection="rtl"/>
                 <ImageView
                     android:layout_width="match_parent"
@@ -179,7 +179,7 @@
                     android:layout_marginRight="15dp"
                     android:textColor="@color/black"
                     android:textSize="20sp"
-                    android:text="BO - Bulged Out"
+                    android:text="Harrison Ford"
                     android:layoutDirection="rtl"/>
                 <ImageView
                     android:layout_width="match_parent"
@@ -193,7 +193,7 @@
                     android:layout_marginRight="15dp"
                     android:textColor="@color/black"
                     android:textSize="20sp"
-                    android:text="TP - Temporary Parch"
+                    android:text="Matt LeBlanc"
                     android:layoutDirection="rtl"/>
                 <ImageView
                     android:layout_width="match_parent"
@@ -207,7 +207,7 @@
                     android:layout_marginRight="15dp"
                     android:textColor="@color/black"
                     android:textSize="20sp"
-                    android:text="P - Pushed IN/OUT"
+                    android:text="Daniel Radcliffe"
                     android:layoutDirection="rtl"/>
                 <ImageView
                     android:layout_width="match_parent"
