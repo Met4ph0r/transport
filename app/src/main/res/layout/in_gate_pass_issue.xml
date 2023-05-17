@@ -23,47 +23,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Container Check"
+            android:text="Issue In-Gate Pass"
             android:textColor="#272727"
             android:textSize="20sp"
             android:textStyle="bold" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/light_green_pill_background"
-        android:layout_marginTop="15dp"
-        android:paddingHorizontal="15dp"
-        android:paddingVertical="10dp"
-        android:gravity="center">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="18sp"
-            android:textColor="#52c882"
-            android:text="Status: "/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:textColor="#3fc074"
-            android:text="Order Delivered"/>
-        <ImageView
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:layout_marginStart="15dp"
-            android:src="@drawable/baseline_check_circle_24_green"/>
-
     </LinearLayout>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:text="Delivery Details"
+        android:text="Confirm Truck Details"
         android:textColor="#3eb1f2"
         android:textStyle="bold"
         android:textSize="18sp"/>
@@ -112,7 +82,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="Container Number"
+                android:text="Driver Name"
                 android:textColor="#454545"
                 android:textSize="15sp"
                 android:layout_weight="0.45"/>
@@ -121,7 +91,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text=":   9128739125"
+                android:text=":   James Gouse"
                 android:textColor="#4e4d4d"
                 android:textSize="15sp"
                 android:textStyle="bold"
@@ -136,7 +106,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="Container Size"
+                android:text="Date"
                 android:textColor="#454545"
                 android:textSize="15sp"
                 android:layout_weight="0.45"/>
@@ -145,7 +115,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text=":   50x15x15 cubic ft."
+                android:text=":   28-03-2023"
                 android:textColor="#4e4d4d"
                 android:textSize="15sp"
                 android:textStyle="bold"
@@ -160,7 +130,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="Empty Gate Out"
+                android:text="Validity"
                 android:textColor="#454545"
                 android:textSize="15sp"
                 android:layout_weight="0.45"/>
@@ -169,7 +139,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text=":   ABXXXXCCCC"
+                android:text=":   2 Days"
                 android:textColor="#4e4d4d"
                 android:textSize="15sp"
                 android:textStyle="bold"
@@ -184,7 +154,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="Gross Weight"
+                android:text="Parking Location"
                 android:textColor="#454545"
                 android:textSize="15sp"
                 android:layout_weight="0.45"/>
@@ -193,55 +163,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text=":   256 Kgs"
-                android:textColor="#4e4d4d"
-                android:textSize="15sp"
-                android:textStyle="bold"
-                android:layout_weight="0.55"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="Tare Weight"
-                android:textColor="#454545"
-                android:textSize="15sp"
-                android:layout_weight="0.45"/>
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text=":   260 Kgs"
-                android:textColor="#4e4d4d"
-                android:textSize="15sp"
-                android:textStyle="bold"
-                android:layout_weight="0.55"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="MFG"
-                android:textColor="#454545"
-                android:textSize="15sp"
-                android:layout_weight="0.45"/>
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text=":   02-04-2023"
+                android:text=":   Lorem ipsum dolor sit \n    amet ameno ulva"
                 android:textColor="#4e4d4d"
                 android:textSize="15sp"
                 android:textStyle="bold"
@@ -250,6 +172,7 @@
 
     </LinearLayout>
     </ScrollView>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -262,10 +185,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/blue_pill_background"
-            android:paddingHorizontal="30dp"
-            android:text="Start Container Check"
+            android:paddingHorizontal="52dp"
+            android:text="Generate Gate Pass"
             android:textAllCaps="false"
             android:textColor="@color/white"
-            android:textSize="18sp" />
+            android:textSize="20sp" />
     </LinearLayout>
 </LinearLayout>

@@ -67,11 +67,14 @@
         android:textColor="#3eb1f2"
         android:textStyle="bold"
         android:textSize="18sp" />
-
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         android:background="@drawable/details_background"
         android:orientation="vertical"
         android:paddingHorizontal="10dp"
@@ -293,7 +296,7 @@
                 android:layout_weight="0.55"/>
         </LinearLayout>
     </LinearLayout>
-
+    </ScrollView>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="10dp"

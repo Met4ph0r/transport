@@ -67,233 +67,236 @@
         android:textColor="#3eb1f2"
         android:textStyle="bold"
         android:textSize="18sp" />
-
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_marginTop="20dp"
-        android:background="@drawable/details_background"
-        android:orientation="vertical"
-        android:paddingHorizontal="10dp"
-        android:paddingVertical="20dp">
-
+        android:layout_weight="1">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:background="@drawable/details_background"
+            android:orientation="vertical"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="20dp">
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="Truck Number"
-                android:textColor="#454545"
-                android:textSize="15sp"
-                android:layout_weight="0.45"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text=":   AP21EJ5893"
-                android:textColor="#4e4d4d"
-                android:textSize="15sp"
-                android:textStyle="bold"
-                android:layout_weight="0.55"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Truck Number"
+                    android:textColor="#454545"
+                    android:textSize="15sp"
+                    android:layout_weight="0.45"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text=":   AP21EJ5893"
+                    android:textColor="#4e4d4d"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_weight="0.55"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Container Number"
+                    android:textColor="#454545"
+                    android:textSize="15sp"
+                    android:layout_weight="0.45"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text=":   9128739125"
+                    android:textColor="#4e4d4d"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_weight="0.55"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Consignee Name"
+                    android:textColor="#454545"
+                    android:textSize="15sp"
+                    android:layout_weight="0.45"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text=":   James Gouse"
+                    android:textColor="#4e4d4d"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_weight="0.55"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Shipper Name"
+                    android:textColor="#454545"
+                    android:textSize="15sp"
+                    android:layout_weight="0.45"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text=":   Nolan Curtis"
+                    android:textColor="#4e4d4d"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_weight="0.55"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Cargo Agency"
+                    android:textColor="#454545"
+                    android:textSize="15sp"
+                    android:layout_weight="0.45"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text=":   ABCCCCCCC"
+                    android:textColor="#4e4d4d"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_weight="0.55"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Date"
+                    android:textColor="#454545"
+                    android:textSize="15sp"
+                    android:layout_weight="0.45"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text=":   28-03-2023"
+                    android:textColor="#4e4d4d"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_weight="0.55"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Validity"
+                    android:textColor="#454545"
+                    android:textSize="15sp"
+                    android:layout_weight="0.45"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text=":   2 Days"
+                    android:textColor="#4e4d4d"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_weight="0.55"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Order Location"
+                    android:textColor="#454545"
+                    android:textSize="15sp"
+                    android:layout_weight="0.45"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text=":   Lorem ipsum dolor \n    sit amet ameno do"
+                    android:textColor="#4e4d4d"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_weight="0.55"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Consignee Location"
+                    android:textColor="#454545"
+                    android:textSize="15sp"
+                    android:layout_weight="0.45"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text=":   Lorem ipsum dolor \n    sit amet ameno do"
+                    android:textColor="#4e4d4d"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_weight="0.55"/>
+            </LinearLayout>
         </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="Container Number"
-                android:textColor="#454545"
-                android:textSize="15sp"
-                android:layout_weight="0.45"/>
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text=":   9128739125"
-                android:textColor="#4e4d4d"
-                android:textSize="15sp"
-                android:textStyle="bold"
-                android:layout_weight="0.55"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="Consignee Name"
-                android:textColor="#454545"
-                android:textSize="15sp"
-                android:layout_weight="0.45"/>
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text=":   James Gouse"
-                android:textColor="#4e4d4d"
-                android:textSize="15sp"
-                android:textStyle="bold"
-                android:layout_weight="0.55"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="Shipper Name"
-                android:textColor="#454545"
-                android:textSize="15sp"
-                android:layout_weight="0.45"/>
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text=":   Nolan Curtis"
-                android:textColor="#4e4d4d"
-                android:textSize="15sp"
-                android:textStyle="bold"
-                android:layout_weight="0.55"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="Cargo Agency"
-                android:textColor="#454545"
-                android:textSize="15sp"
-                android:layout_weight="0.45"/>
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text=":   ABCCCCCCC"
-                android:textColor="#4e4d4d"
-                android:textSize="15sp"
-                android:textStyle="bold"
-                android:layout_weight="0.55"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="Date"
-                android:textColor="#454545"
-                android:textSize="15sp"
-                android:layout_weight="0.45"/>
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text=":   28-03-2023"
-                android:textColor="#4e4d4d"
-                android:textSize="15sp"
-                android:textStyle="bold"
-                android:layout_weight="0.55"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="Validity"
-                android:textColor="#454545"
-                android:textSize="15sp"
-                android:layout_weight="0.45"/>
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text=":   2 Days"
-                android:textColor="#4e4d4d"
-                android:textSize="15sp"
-                android:textStyle="bold"
-                android:layout_weight="0.55"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="Order Location"
-                android:textColor="#454545"
-                android:textSize="15sp"
-                android:layout_weight="0.45"/>
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text=":   Lorem ipsum dolor \n    sit amet ameno do"
-                android:textColor="#4e4d4d"
-                android:textSize="15sp"
-                android:textStyle="bold"
-                android:layout_weight="0.55"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="Consignee Location"
-                android:textColor="#454545"
-                android:textSize="15sp"
-                android:layout_weight="0.45"/>
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text=":   Lorem ipsum dolor \n    sit amet ameno do"
-                android:textColor="#4e4d4d"
-                android:textSize="15sp"
-                android:textStyle="bold"
-                android:layout_weight="0.55"/>
-        </LinearLayout>
-    </LinearLayout>
-
+    </ScrollView>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="10dp"
@@ -330,8 +333,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:gravity="center"
-        android:orientation="vertical">
+        android:padding="10dp"
+        android:gravity="center|bottom">
 
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="match_parent"

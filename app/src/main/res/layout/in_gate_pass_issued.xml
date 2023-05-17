@@ -23,7 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Issue Lorry Receipt"
+            android:text="Issued In - Gate Pass"
             android:textColor="#272727"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -46,6 +46,7 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="270dp"
+            android:layout_marginTop="10dp"
             android:gravity="center">
 
             <ImageView
@@ -63,7 +64,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="Weighment Slip"
+                android:text="In - Gate Pass"
                 android:textColor="#3EB1F2"
                 android:textStyle="bold"
                 android:textSize="24sp" />
@@ -76,15 +77,15 @@
             <TextView
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="Weighment Slip ID"
+                android:padding="5dp"
+                android:text="Gate Pass ID"
                 android:textColor="#454545"
                 android:textSize="15sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="10dp"
+                android:padding="5dp"
                 android:text=":   AP31EJ5893"
                 android:textColor="#4e4d4d"
                 android:textSize="15sp"
@@ -97,29 +98,7 @@
             <TextView
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="Container Weight"
-                android:textColor="#454545"
-                android:textSize="15sp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text=":   300 KGs"
-                android:textColor="#4e4d4d"
-                android:textSize="15sp"
-                android:textStyle="bold" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <TextView
-                android:layout_width="150dp"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
+                android:padding="5dp"
                 android:text="Issued By"
                 android:textColor="#454545"
                 android:textSize="15sp" />
@@ -127,7 +106,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="10dp"
+                android:padding="5dp"
                 android:text=":   Angel Bergson"
                 android:textColor="#4e4d4d"
                 android:textSize="15sp"
@@ -141,16 +120,16 @@
             <TextView
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="Date &amp; time"
+                android:padding="5dp"
+                android:text="Date \&amp; Time"
                 android:textColor="#454545"
                 android:textSize="15sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text=":   28-03-2023; 13:25"
+                android:padding="5dp"
+                android:text=":   28-03-23; 13:25"
                 android:textColor="#4e4d4d"
                 android:textSize="15sp"
                 android:textStyle="bold" />
@@ -163,7 +142,7 @@
             <TextView
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
-                android:padding="10dp"
+                android:padding="5dp"
                 android:text="Validity"
                 android:textColor="#454545"
                 android:textSize="15sp" />
@@ -171,7 +150,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="10dp"
+                android:padding="5dp"
                 android:text=":   2 Days"
                 android:textColor="#4e4d4d"
                 android:textSize="15sp"
@@ -179,6 +158,7 @@
         </LinearLayout>
     </LinearLayout>
     </ScrollView>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -190,12 +170,13 @@
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/blue_pill_background"
-            android:paddingHorizontal="52dp"
-            android:paddingVertical="10dp"
-            android:text="Generate Lorry Receipt"
+            android:background="@drawable/green_pill_background"
+            android:paddingHorizontal="20dp"
+            android:text="  Generated Gate Pass"
             android:textAllCaps="false"
             android:textColor="@color/white"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/baseline_check_circle_24_white"
+            />
     </LinearLayout>
 </LinearLayout>
