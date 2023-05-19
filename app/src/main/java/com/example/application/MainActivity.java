@@ -9,6 +9,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.movement_slip_issue);
+        setContentView(R.layout.depot_screen_02__issue_movement_slip);
     }
 }

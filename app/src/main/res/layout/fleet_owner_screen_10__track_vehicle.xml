@@ -24,7 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="ASSIGN VEHICLE"
+            android:text="TRACK VEHICLE"
             android:textColor="#272727"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -44,7 +44,7 @@
             android:layout_height="wrap_content"
             android:textSize="18sp"
             android:textColor="@color/black"
-            android:text="Select your vehicle to be assigned"/>
+            android:text="Select a vehicle to track"/>
     </LinearLayout>
 
     <ScrollView
@@ -59,6 +59,48 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="20dp"
+                    android:paddingVertical="14dp"
+                    android:layout_marginRight="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:text="AP25RE4756"
+                    android:layoutDirection="rtl"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:src="@drawable/separator_line"/>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="20dp"
+                    android:paddingVertical="14dp"
+                    android:layout_marginRight="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:text="AP25RE4756"
+                    android:layoutDirection="rtl"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:src="@drawable/separator_line"/>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="20dp"
+                    android:paddingVertical="14dp"
+                    android:layout_marginRight="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:text="AP25RE4756"
+                    android:layoutDirection="rtl"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:src="@drawable/separator_line"/>
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
