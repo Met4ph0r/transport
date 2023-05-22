@@ -9,6 +9,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.fleet_owner_screeen_1__homescreen);
+        setContentView(R.layout.fleet_owner_screen_04__homescreen_selected_vehicle);
     }
 }
