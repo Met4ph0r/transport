@@ -52,7 +52,22 @@
                         android:textStyle="bold"
                         android:textSize="20sp"
                         android:textColor="@color/black"/>
+
+<!--                    <androidx.fragment.app.FragmentContainerView-->
+<!--                        android:id="@+id/autocomplete_fragment"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"-->
+<!--                        style="@style/location_field"-->
+<!--                        >-->
+<!--                    </androidx.fragment.app.FragmentContainerView>-->
+<!--                <fragment android:id="@+id/autocomplete_fragment"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"-->
+<!--                    />-->
                     <EditText
+                        android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="15dp"
@@ -61,7 +76,6 @@
                         android:hint="  Yard Location"
                         android:drawableStart="@drawable/baseline_location_on_24"
                         />
-
                     <EditText
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"

@@ -21,7 +21,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Vehicle Assigned Successfully"
+        android:text="Order Confirmed"
         android:gravity="center"
         android:textStyle="bold"
         android:textColor="@color/black"
@@ -30,7 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="You assigned your vehicle AP25RE4756 to Mr. Harish Shankar"
+        android:text="Your order is confirmed by the depot and assigned to Mr. Harish Shankar"
         android:gravity="center"
         android:textColor="@color/black"
         android:textSize="25sp"/>
@@ -48,7 +48,7 @@
             android:background="@color/black"
             android:paddingHorizontal="52dp"
             android:paddingVertical="15dp"
-            android:text="GO HOME"
+            android:text="Track Order"
             android:textColor="@color/white"
             android:textSize="20sp" />
     </LinearLayout>

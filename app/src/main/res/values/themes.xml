@@ -13,4 +13,10 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+    <style name="location_field">
+<!--        <item name="android:padding">5dp</item>-->
+        <item name="android:hint">  Yard Location</item>
+        <item name="android:drawableStart">@drawable/baseline_location_on_24</item>
+        <item name="android:background">@drawable/light_blue_pill_background</item>
+    </style>
 </resources>
