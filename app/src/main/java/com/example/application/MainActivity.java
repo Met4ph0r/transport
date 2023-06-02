@@ -9,7 +9,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.customer_screen_01__start_booking);
+        setContentView(R.layout.customer_screen_05__tracking_shipment);
 
 //        String apiKey = getString(R.string.api_key);
 //        if (!Places.isInitialized()) {
